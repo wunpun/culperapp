@@ -1,0 +1,97 @@
+<%include ./partials/header %>
+<form class="form-horizontal" action='' method="POST">
+  <fieldset>
+    <div id="legend">
+      <legend class="">Register</legend>
+    </div>
+
+    <div class = 'container'>
+      <img src="https://scontent.ffcm1-1.fna.fbcdn.net/v/t1.0-9/18222391_808055299353321_6156601202782749587_n.jpg?_nc_cat=0&oh=9b20774a025be34472190dd0bfc237a1&oe=5B85EE7D" class="img-fluid" width="150" height="150" >
+    </div>
+    <div>
+      <p>
+      </p>
+      <p>
+      </p>
+    </div>
+    <div class="control-group">
+      <!-- firstname -->
+      <label class="control-label"  for="firstname">First Name</label>
+      <div class="controls">
+        <input type="text" id="first" name="first" placeholder="" class="input-xlarge">
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- lastname -->
+      <label class="control-label"  for="lastname">Last Name</label>
+      <div class="controls">
+        <input type="text" id="last" name="last" placeholder="" class="input-xlarge">
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- school -->
+      <label class="control-label"  for="school">School</label>
+      <div class="controls">
+        <select id="school" name="school" placeholder="" class="input-xlarge">
+          <option>Hofstra University</option>
+          <option>Stony Brook University</option>
+          <option>Adelphi University</option>
+          <option>LIU Post</option>
+          <option>Molloy College</option>
+          <option>Nassau Community College</option>
+          <option>New York Institute of Technology</option>
+          <option>St. Joseph's College</option>
+          <option>Suffolk Community College</option>
+          <option>SUNY Farmgingdale</option>
+          <option>SUNY Old Westbury</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div class="control-group">
+      <!-- Username -->
+      <label class="control-label"  for="username">Username</label>
+      <div class="controls">
+        <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+        <p class="help-block">Username can contain any letters or numbers, without spaces</p>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- E-mail -->
+      <label class="control-label" for="email">E-mail</label>
+      <div class="controls">
+        <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+        <p class="help-block">Please provide your E-mail</p>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- Password-->
+      <label class="control-label" for="password">Password</label>
+      <div class="controls">
+        <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- Password -->
+      <label class="control-label"  for="password_confirm">Password (Confirm)</label>
+      <div class="controls">
+        <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+        <p class="help-block">Please confirm password</p>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- Button -->
+      <div class="controls">
+        <button class="btn btn-success">Register</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+<% include ./partials/footer %>
